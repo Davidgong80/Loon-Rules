@@ -1,6 +1,6 @@
-#!name = Skip Proxy And Real-IP Lists (移动版)
+#!name = Skip Proxy And Real-IP Lists
 #!desc = 跳过部分应用的代理检测
-#!author = mieqq
+#!author = DAVID.G
 #!system = iOS,iPadOS,tvOS,macOS
 #!system_version = 
 #!loon_version = 3.3.2(877)
@@ -8,8 +8,8 @@
 #!homepage = https://github.com/Tartarus2014/Loon-Script/blob/master/Plugin/skip-proxy.md
 
 [General]
-skip-proxy = www.baidu.com,yunbusiness.ccb.com,gate.lagou.com,www.abchina.com.cn,www.shanbay.com,login-service.mobile-bank.psbc.com,mobile-bank.psbc.com,id6.me,10086.cn,cmpassport.com
-real-ip = easy-login.10099.com.cn,*-update.xoyocdn.com,id6.me,open.e.189.cn,wap.cmpassport.com,log.cmpassport.com
+skip-proxy = cmbchina.com,citicbank.com,spdb.com.cn,www.baidu.com,yunbusiness.ccb.com,wap.cmpassport.com,log.cmpassport.com,gate.lagou.com,www.abchina.com.cn,www.shanbay.com,login-service.mobile-bank.psbc.com,mobile-bank.psbc.com,id6.me
+real-ip = wap.cmpassport.com,log.cmpassport.com,easy-login.10099.com.cn,*-update.xoyocdn.com,id6.me,open.e.189.cn
 
 [Rule]
 DOMAIN,msmp.abchina.com.cn,REJECT
